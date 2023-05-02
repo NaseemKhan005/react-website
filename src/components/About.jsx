@@ -1,11 +1,16 @@
 import React from "react";
 import web from "../images/about-page-img.svg";
-import Common from "./Common";
+import HeroSection from "./HeroSection";
 
 function About() {
 	return (
 		<>
-			<Common text="Welcome to About Page" btntext="Contact Here" imgsrc={web} link='/contact' />
+			<HeroSection
+				text="Welcome to About Page"
+				btntext="Contact Here"
+				imgsrc={web}
+				link="/contact"
+			/>
 		</>
 	);
 }

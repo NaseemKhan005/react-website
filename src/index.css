@@ -10,3 +10,16 @@
 body {
 	color: #536dfe;
 }
+
+.Imganimation {
+	animation: Imganimation 1s infinite alternate-reverse;
+}
+
+@keyframes Imganimation {
+	to {
+		transform: translateY(-10px);
+	}
+	from {
+		transform: translateY(10px);
+	}
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-function Common(props) {
+function HeroSection(props) {
 	return (
 		<>
 			<div className="md-container-fluid">
@@ -19,7 +19,7 @@ function Common(props) {
 								{props.btntext}
 							</NavLink>
 						</div>
-						<div className="col-12 col-md-6">
+						<div className="col-12 col-md-6 Imganimation">
 							<img src={props.imgsrc} alt="image" className="w-100" />
 						</div>
 					</div>
@@ -29,4 +29,4 @@ function Common(props) {
 	);
 }
 
-export default Common;
+export default HeroSection;
